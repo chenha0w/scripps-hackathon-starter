@@ -29,7 +29,7 @@ The fastest path:
    - Easiest: click the green **`<> Code`** button at the top right of
      the GitHub page → **Download ZIP** → unzip it somewhere you can
      find again (Desktop is fine).
-   - Or, if you're comfortable: `git clone <this-repo-url>`
+   - Or, if you're comfortable: `git clone https://github.com/scripps-cbb/scripps-hackathon-starter`
 2. **Install Claude Code** if you haven't already:
    <https://www.claude.com/product/claude-code>
 3. **Open this folder in Claude Code.** On Mac/Linux: `cd

@@ -23,7 +23,7 @@ SSO_START_URL="https://d-9267e96a16.awsapps.com/start"
 SSO_REGION="us-west-2"
 ACCOUNT_ID="127696279288"
 REGION="us-west-2"
-SSO_ROLE_NAME="AWSAdministratorAccess"   # adjust if your role is different
+SSO_ROLE_NAME="Hackathon"   # adjust if yours differs (check the SSO portal)
 
 BUCKET="scrippsresearch-bgood-hackathon"
 OPEN_DATA_BUCKET="sea-ad-single-cell-profiling"

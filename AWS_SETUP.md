@@ -99,7 +99,7 @@ Back in the terminal, you'll be asked which account and role to use:
 | Prompt | Value |
 |---|---|
 | Account | `Scripps Research Hackathon (127696279288)` |
-| Role | the role you've been granted (commonly `AWSAdministratorAccess`) |
+| Role | the role you've been granted (for this event it's usually `Hackathon`; admins may see `AWSAdministratorAccess`) |
 | Default client region | `us-west-2` |
 | Default output format | `json` |
 | Profile name | `bgood-scripps` *(or your preferred name)* |
@@ -118,12 +118,14 @@ sso_registration_scopes = sso:account:access
 [profile bgood-scripps]
 sso_session = scripps-hackathon
 sso_account_id = 127696279288
-sso_role_name = AWSAdministratorAccess
+sso_role_name = Hackathon
 region = us-west-2
 output = json
 ```
 
-Replace `bgood-scripps` and `AWSAdministratorAccess` if yours differ. The
+Replace `bgood-scripps` (and the role name, if yours differs — sign in at
+<https://d-9267e96a16.awsapps.com/start> to see exactly what role you've
+been granted). The
 `[sso-session scripps-hackathon]` block can be reused by additional profiles
 in the same account — you only need one session block per identity center.
 

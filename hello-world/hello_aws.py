@@ -23,6 +23,12 @@ import argparse
 import json
 import sys
 
+# On Windows, Python's default stdout encoding (cp1252) mangles common
+# characters like em-dashes and smart quotes. Force UTF-8 so Claude's
+# greeting renders correctly. No-op on macOS/Linux.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 try:
     import boto3
     from botocore import UNSIGNED
