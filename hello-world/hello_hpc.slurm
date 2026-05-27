@@ -39,8 +39,8 @@ echo "CPUs per task  : $SLURM_CPUS_PER_TASK"
 echo "----------------------------------------------"
 
 # Show a few cluster facts so you know the environment is real.
-echo "Cluster modules available (first 5):"
-module avail 2>&1 | head -5 || true
+echo "Cluster modules available:"
+module av || true
 
 echo "----------------------------------------------"
 echo "If you can read this in hello_hpc_${SLURM_JOB_ID}.out,"

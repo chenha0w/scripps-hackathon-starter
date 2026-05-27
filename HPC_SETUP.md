@@ -77,7 +77,7 @@ Once logged in, sanity-check the environment:
 hostname                  # should contain "garibaldi" or "login02"
 sinfo                     # lists partitions like 'shared' and 'gpu'
 squeue -u $USER           # shows your jobs (empty for now)
-module avail 2>&1 | head  # peek at what software is available
+module av                 # peek at what software is available
 ```
 
 If `sinfo` and `squeue` work, Slurm is happy and you're ready to
