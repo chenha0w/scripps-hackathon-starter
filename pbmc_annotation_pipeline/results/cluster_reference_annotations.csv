@@ -1,0 +1,7 @@
+leiden,reference_annotation,reference_cell_level,mean_conf,n_cells
+0,T cells,T cells,0.9870946751453129,1196
+1,Monocytes,Monocytes,0.964677654198922,639
+2,T cells,T cells,0.9365594836970362,414
+3,B cells,B cells,0.9945317986178067,340
+4,DC,DC,0.8783858346728232,36
+5,Megakaryocytes/platelets,Megakaryocytes/platelets,0.7915109666112556,13

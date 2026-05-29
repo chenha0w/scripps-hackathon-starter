@@ -1,0 +1,31 @@
+=== SYSTEM PROMPT ===
+You are an expert single-cell biologist specialising in PBMC (peripheral blood mononuclear cell) transcriptomics. You will receive top marker genes for each Leiden cluster from a PBMC scRNA-seq experiment and must assign the most likely cell type using standard PBMC nomenclature.
+
+Use ONLY these canonical PBMC label names (pick exactly one per cluster):
+  Naive CD4 T | Memory CD4 T | CD8 T | NK | B | CD14+ Mono | FCGR3A+ Mono | DC | Platelet
+
+Respond with ONLY a valid JSON object mapping cluster IDs (strings) to cell type labels. No explanation, no markdown — pure JSON.
+
+=== USER PROMPT ===
+Annotate these 6 PBMC clusters based on their marker genes:
+
+Cluster 0: CD3D, LDHB, LTB, RPS29, RPS27A, RPS25, RPL31, RPS3A, RPL9, RPS12, RPS27, RPL30, RPS15A, TPT1, RPL23A
+Cluster 1: S100A9, S100A8, CST3, CFD, TYROBP, FCN1, LST1, LYZ, AIF1, CD68, FCER1G, TYMP, LGALS1, CTSS, NPC2
+Cluster 2: NKG7, GZMH, CST7, GZMB, FGFBP2, GZMA, PRF1, CCL5, GNLY, CCL4, CTSW, HOPX, GZMM, CD247, PTPRCAP
+Cluster 3: CD79A, VPREB3, LINC00926, TCL1A, MS4A1, CD79B, HLA-DQA1, HLA-DQB1, HLA-DRA, BANK1, HLA-DQA2, CD74, HLA-DPB1, HVCN1, HLA-DRB1
+Cluster 4: FCER1A, CLEC10A, CST3, HLA-DQA1, HLA-DRA, HLA-DPB1, HLA-DPA1, LYZ, HLA-DRB1, HLA-DQA2, HLA-DQB1, HLA-DRB5, CD74, CPVL, HLA-DMA
+Cluster 5: PPBP, GP9, PF4, GNG11, AP001189.4, SDPR, SPARC, CD9, HIST1H2AC, NRGN, RGS18, TPM4, GPX1, CCL5, RGS10
+
+Return JSON only.
+
+=== RAW LLM RESPONSE ===
+```json
+{
+  "0": "Naive CD4 T",
+  "1": "CD14+ Mono",
+  "2": "CD8 T",
+  "3": "B",
+  "4": "DC",
+  "5": "Platelet"
+}
+```

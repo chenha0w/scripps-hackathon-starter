@@ -1,0 +1,47 @@
+cell_type,gene
+CD4 T cells,CD3D
+CD4 T cells,CD3E
+CD4 T cells,CD4
+CD4 T cells,IL7R
+CD4 T cells,CCR7
+CD4 T cells,LTB
+CD4 T cells,LDHB
+CD8 T cells,CD8A
+CD8 T cells,CD8B
+CD8 T cells,NKG7
+CD8 T cells,GZMB
+CD8 T cells,GZMA
+CD8 T cells,PRF1
+CD8 T cells,CST7
+NK cells,GNLY
+NK cells,NKG7
+NK cells,KLRD1
+NK cells,NCAM1
+NK cells,FCGR3A
+NK cells,KLRB1
+B cells,MS4A1
+B cells,CD79A
+B cells,CD79B
+B cells,CD19
+B cells,BANK1
+CD14+ Monocytes,CD14
+CD14+ Monocytes,LYZ
+CD14+ Monocytes,S100A9
+CD14+ Monocytes,S100A8
+CD14+ Monocytes,CST3
+CD14+ Monocytes,FCN1
+FCGR3A+ Monocytes,FCGR3A
+FCGR3A+ Monocytes,MS4A7
+FCGR3A+ Monocytes,IFITM3
+FCGR3A+ Monocytes,CFD
+FCGR3A+ Monocytes,LST1
+Dendritic cells,FCER1A
+Dendritic cells,CST3
+Dendritic cells,CLEC10A
+Dendritic cells,HLA-DQA1
+Dendritic cells,HLA-DRA
+Megakaryocytes,PPBP
+Megakaryocytes,PF4
+Megakaryocytes,GP9
+Megakaryocytes,GNG11
+Megakaryocytes,SDPR

@@ -1,0 +1,12 @@
+# Large binary data files — stored in S3, not git
+data/
+results/pbmc_processed.h5ad
+results_gemma/pbmc_preprocessed.h5ad
+results_gemma/pbmc_annotation_reference_mapping.h5ad
+results_gemma/pbmc_annotation_zero_shot.h5ad
+results_llama/pbmc_annotation*.h5ad
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

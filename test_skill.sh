@@ -17,7 +17,7 @@
 set -u  # don't set -e — we want to record per-step pass/fail and continue
 
 # ---------- Config (edit these if your setup differs) ----------
-PROFILE="bgood-scripps"
+PROFILE="chewu-scripps"
 SSO_SESSION="scripps-hackathon"
 SSO_START_URL="https://d-9267e96a16.awsapps.com/start"
 SSO_REGION="us-west-2"

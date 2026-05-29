@@ -1,0 +1,4 @@
+step,wall_time_sec,peak_mem_mb
+01_preprocessing,76.73,408.1
+02_zero_shot_llm,2.05,10.4
+03_reference_mapping,1.52,255.3
